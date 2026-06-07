@@ -1,8 +1,6 @@
-// Write your code below
-function countDown () {
-    for(i=10; i>=1; i--){
-        console.log(i)
-    }
+function countDown() {
+  for (var i = 10; i > 0; i--) {
+    console.log(i);
+  }
+  console.log("Blast off!");
 }
-
-countDown()
